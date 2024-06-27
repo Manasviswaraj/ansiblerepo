@@ -1,0 +1,9 @@
+[slave1]
+172.31.0.121
+[slave2]
+172.31.0.123
+
+[all:vars]
+
+
+ansible_ssh_private_key_file=mykey.pem

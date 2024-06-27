@@ -1,0 +1,8 @@
+---
+- hosts: slave1
+  become: yes
+  tasks:
+    - name: install java
+      apt:
+        name: openjdk-17-jre
+        state: present 

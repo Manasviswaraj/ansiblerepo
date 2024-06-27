@@ -1,0 +1,8 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+    - name: 
+      copy:
+         src: /home/ubuntu/1.txt
+         dest: /tmp/

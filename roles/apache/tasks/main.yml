@@ -1,0 +1,9 @@
+---
+- name: install apache
+  become: yes
+  apt: 
+    name: apache2
+    state: present
+
+# tasks file for apache
+# tasks file for apache

@@ -1,0 +1,7 @@
+---
+- name: install nginx
+  become: yes
+  apt: 
+    name: nginx
+    state: present
+# tasks file for nginx
